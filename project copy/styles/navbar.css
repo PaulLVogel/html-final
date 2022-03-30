@@ -1,0 +1,86 @@
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.navbar-wrapper > .first-column img {
+    width: 350px;
+    height: 100%;
+}
+
+.navbar-wrapper > .second-column {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    
+}
+
+.navbar-wrapper > .second-column > .navbar-header {
+    color: yellow;
+}
+
+.navbar-wrapper > .second-column > .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.navbar-wrapper > .second-column > .spark {
+    margin-left: 30px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    color: lightgray;
+}
+
+.navbar-wrapper > .second-column > .chevron-icon  {
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    color: lightgray;
+}
+
+
+
+
+.navbar-wrapper > .third-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 400px;
+    
+}
+
+.navbar-wrapper > .third-column > .btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+}
+
+.navbar-wrapper > .third-column > .btn-wrapper > .btn {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 2px;
+    padding: 15px;
+    background-color: grey;
+    font-weight: 600;
+
+}
+
+.navbar-wrapper > .third-column > .btn-wrapper > .btn > .btn-chevron {
+    margin-left: 5px;
+    color: lime;
+}
+
+.navbar-wrapper > .third-column > .btn-wrapper > .search-icon {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color: grey;
+}

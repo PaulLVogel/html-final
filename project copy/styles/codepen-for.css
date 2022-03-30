@@ -1,0 +1,14 @@
+.codepen-for {
+    background-color: lightgray;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.codepen-for > .for {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid grey;
+    padding: 07px 100px;
+}
